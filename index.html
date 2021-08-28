@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+			#divasli {
+	  width: 100%;
+	  /* Firefox */
+	  display: -moz-box;
+	  -moz-box-pack: center;
+	  -moz-box-align: center;
+	  /* Safari and Chrome */
+	  display: -webkit-box;
+	  -webkit-box-pack: center;
+	  -webkit-box-align: center;
+	  /* W3C */
+	  display: box;
+	  box-pack: center;
+	  box-align: center;
+	}
+
+	#button1 {
+	  width: 50%;
+	}
+	#id1 {
+		color: darkred;
+	}
+	</style>
+	<meta charset="utf-8">
+	<title>WE DID IT</title>
+</head>
+
+<body> 
+
+	<div id="divasli">
+		<div id="id1">
+		hello my friends
+		</div>
+		<button id="button1" onclick="function_name()">
+			MONEY HEIST
+		</button>
+	</div>
+	<script type="text/javascript">
+		const arr = ["BERLIN","TOKYO","RIO"]
+		function function_name() {
+			const b = arr[Math.floor(Math.random() * arr.length)];
+			const a = document.getElementById('id1')
+			a.innerHTML = b
+		}
+		
+	</script>
+</body>
+</html>
