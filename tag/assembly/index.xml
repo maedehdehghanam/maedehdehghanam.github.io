@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assembly | Maedeh Dehghan</title>
+    <link>https://maedehdehghan.ir/tag/assembly/</link>
+      <atom:link href="https://maedehdehghan.ir/tag/assembly/index.xml" rel="self" type="application/rss+xml" />
+    <description>Assembly</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maedehdehghan.ir/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_512x512_fill_lanczos_center_3.png</url>
+      <title>Assembly</title>
+      <link>https://maedehdehghan.ir/tag/assembly/</link>
+    </image>
+    
+    <item>
+      <title>Doodle Jump</title>
+      <link>https://maedehdehghan.ir/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://maedehdehghan.ir/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Cycle RISC-V Processor</title>
+      <link>https://maedehdehghan.ir/project/risc-v/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://maedehdehghan.ir/project/risc-v/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

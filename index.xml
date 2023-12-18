@@ -243,7 +243,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-317286594&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-567928143&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -253,7 +253,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-317286594&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-567928143&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -659,7 +659,32 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Example Project</title>
+      <title>Privacy Policy</title>
+      <link>https://maedehdehghan.ir/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>https://maedehdehghan.ir/privacy/</guid>
+      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cross Word Solver</title>
+      <link>https://maedehdehghan.ir/project/crossword-solver/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://maedehdehghan.ir/project/crossword-solver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doodle Jump</title>
+      <link>https://maedehdehghan.ir/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://maedehdehghan.ir/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laptop Price Prediction</title>
       <link>https://maedehdehghan.ir/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://maedehdehghan.ir/project/example/</guid>
@@ -672,10 +697,10 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://maedehdehghan.ir/project/external-project/</link>
+      <title>Multi-Cycle RISC-V Processor</title>
+      <link>https://maedehdehghan.ir/project/risc-v/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://maedehdehghan.ir/project/external-project/</guid>
+      <guid>https://maedehdehghan.ir/project/risc-v/</guid>
       <description></description>
     </item>
     
