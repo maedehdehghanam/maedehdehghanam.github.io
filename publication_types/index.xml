@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | Maedeh Dehghan</title>
+    <link>https://maedehdehghan.ir/publication_types/</link>
+      <atom:link href="https://maedehdehghan.ir/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>https://maedehdehghan.ir/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_512x512_fill_lanczos_center_3.png</url>
+      <title>Publication_types</title>
+      <link>https://maedehdehghan.ir/publication_types/</link>
+    </image>
+    
+  </channel>
+</rss>
