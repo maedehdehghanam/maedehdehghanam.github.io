@@ -1,2181 +1,560 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: March 18, 2024 --><html lang="en-us" >
-
+<!-- Last Published: March 18, 2024 -->
+<html lang="en-us">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  
-  
-    <meta name="generator" content="Hugo Blox Builder 5.9.6" />
-  
 
-  
-  
+  <meta name="generator" content="Hugo Blox Builder 5.9.6" />
 
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-  
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
 
-  
-  
-  
-    
-      
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
-    
-  
-
-  
-  
-
-  
-  
-
-  
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
 
   <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
 
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
 
-    
-    
-    
-    
-      
-      
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" crossorigin="anonymous" media="print" onload="this.media='all'">
 
-    
-    
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-
-    
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-        
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-  
-
-  
-  
-  
-  
-  
-  
   <link rel="stylesheet" href="/css/wowchemy.32e2e32cf1a4c1ea152e519f8b1fda79.css" />
 
-  
-  
-  
+  <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
 
-  
-  
-  
-  
-  
-  
-  
-    
-    
-    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
-  
+  <meta name="author" content="Mariana Dehghan" />
 
-  
-  
+  <meta name="description" content="Personal site of Mariana Dehghan — M.Sc. student in Computing Science at the University of Alberta." />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-  <meta name="author" content="Maedeh Dheghan" />
-
-
-
-
-
-  
-
-<meta name="description" content="A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder." />
-
-
-
-<link rel="alternate" hreflang="en-us" href="https://maedehdehghan.ir/" />
-<link rel="canonical" href="https://maedehdehghan.ir/" />
-
-
+  <link rel="alternate" hreflang="en-us" href="https://maedehdehghan.ir/" />
+  <link rel="canonical" href="https://maedehdehghan.ir/" />
 
   <link rel="manifest" href="/manifest.webmanifest" />
 
+  <link rel="icon" type="image/png" href="/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_180x180_fill_lanczos_center_3.png" />
 
+  <meta name="theme-color" content="#1565c0" />
 
-<link rel="icon" type="image/png" href="/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_180x180_fill_lanczos_center_3.png" />
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:image" content="https://maedehdehghan.ir/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_512x512_fill_lanczos_center_3.png" />
 
-<meta name="theme-color" content="#1565c0" />
+  <meta property="profile:first_name" content="Mariana">
+  <meta property="profile:last_name" content="Dehghan">
 
+  <meta property="og:type" content="profile" />
+  <meta property="og:site_name" content="Mariana Dehghan" />
+  <meta property="og:url" content="https://maedehdehghan.ir/" />
+  <meta property="og:title" content="Mariana Dehghan" />
+  <meta property="og:description" content="Personal site of Mariana Dehghan — M.Sc. student in Computing Science at the University of Alberta." />
+  <meta property="og:image" content="https://maedehdehghan.ir/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:locale" content="en-us" />
+  <meta property="og:updated_time" content="2025-10-17T00:00:00+00:00" />
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Mariana Dehghan",
+    "url": "https://maedehdehghan.ir/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://maedehdehghan.ir/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Mariana Dehghan" />
 
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-<meta property="twitter:card" content="summary" />
-
-  <meta property="twitter:site" content="@GetResearchDev" />
-  <meta property="twitter:creator" content="@GetResearchDev" />
-<meta property="twitter:image" content="https://maedehdehghan.ir/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_512x512_fill_lanczos_center_3.png" />
-
-
-
-  
-    
-    <meta property="profile:first_name" content="Maedeh">
-    <meta property="profile:last_name" content="Dehghan">
-  
-
-<meta property="og:type" content="profile" />
-<meta property="og:site_name" content="Maedeh Dehghan" />
-<meta property="og:url" content="https://maedehdehghan.ir/" />
-<meta property="og:title" content="Maedeh Dehghan" />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder." /><meta property="og:image" content="https://maedehdehghan.ir/media/icon_hu60867d65fe6737bd47c51a5a99b8acb1_4854_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
-
-  
-    <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
-  
-
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://maedehdehghan.ir/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "https://maedehdehghan.ir/"
-}
-</script>
-
-
-  
-
-
-
-
-  
-  
-  
-
-  
-  
-    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Maedeh Dehghan" />
-  
-
-  
-
-
-  
-  <title>Maedeh Dehghan</title>
-
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
+  <title>Mariana Dehghan</title>
 </head>
 
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper" data-wc-page-id="3976528693a0108357f4928017600865">
   <script src="/js/wowchemy-init.min.3a6bdbdff5d8a89d6e651adb3deec035.js"></script>
 
-  
-
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
+  <aside class="search-modal" id="search">
+    <div class="container">
+      <section class="search-header">
+        <div class="row no-gutters justify-content-between mb-3">
+          <div class="col-6">
+            <h1>Search</h1>
+          </div>
+          <div class="col-6 col-search-close">
+            <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          </div>
         </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        <div id="search-box">
+          <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control" aria-label="Search...">
         </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
-        
-      </div>
-
-      
-      
-
-      
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
+      </section>
+      <section class="section-search-results">
+        <div id="search-hits"></div>
+      </section>
+    </div>
+  </aside>
 
   <div class="page-header header--fixed">
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
-
-      
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Maedeh Dehghan</a>
-      </div>
-      
-
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Maedeh Dehghan</a>
-      </div>
-      
-
-      
-      
-      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-
-        
-        <ul class="navbar-nav d-md-inline-flex">
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#skills" data-target="#skills"><span>Skills</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#experience" data-target="#experience"><span>Experience</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
-          </li>
-
-          
-          
-
-        
-
-          
-        </ul>
-      </div>
-
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-        
-        
-          
-        
-
-        
-        
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-        
-        
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span>
-            </a>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+        <div class="container-xl">
+          <div class="d-none d-lg-inline-flex">
+            <a class="navbar-brand" href="/">Mariana Dehghan</a>
           </div>
-        </li>
-        
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+            <a class="navbar-brand" href="/">Mariana Dehghan</a>
+          </div>
 
-        
-        
+          <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+            <ul class="navbar-nav d-md-inline-flex">
+              <li class="nav-item"><a class="nav-link" href="/#about" data-target="#about"><span>Home</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="/#skills" data-target="#skills"><span>Skills</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="/#experience" data-target="#experience"><span>Experience</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="/#projects" data-target="#projects"><span>Projects</span></a></li>
+            </ul>
+          </div>
 
-      </ul>
-
-    </div>
-  </nav>
-</header>
-
-
+          <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+            <li class="nav-item"><a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a></li>
+            <li class="nav-item dropdown theme-dropdown">
+              <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences"><i class="fas fa-moon" aria-hidden="true"></i></a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item js-set-theme-light"><span>Light</span></a>
+                <a href="#" class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+                <a href="#" class="dropdown-item js-set-theme-auto"><span>Automatic</span></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   </div>
 
   <div class="page-body">
-    
-    
-    
-
-    
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-
-<span class="js-widget-page d-none"></span>
-
-
-
-  
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="about" class="home-section wg-about-biography  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-
-    
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle"
-           width="270" height="270"
-           src="/authors/admin/avatar2.webp" alt="Maedeh Dheghan">
-      
-
-      <div class="portrait-title">
-
-        <h2>Mariana Dehghan</h2>
-
-        <h3>M. Sc Student</h3>
-
-        
-        <h3>
-          <a href="https://www.ualberta.ca/en/index.html" target="_blank" rel="noopener">
-          <span>University of Alberta</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-        <li>
-          <a href="mailto:maedehdehghanam@gmail.com"  aria-label="envelope">
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/maedehdehghanam" target="_blank" rel="noopener" aria-label="github">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://linkedin.com/in/maedeh-dehghan-130409200" target="_blank" rel="noopener" aria-label="linkedin">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/maedehdehghanam/cv.pdf/releases/latest/download/main.pdf" target="_blank" rel="noopener" aria-label="cv">
-            <i class="ai ai-cv big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-    <h1>Biography</h1>
-
-    
-    <div class="article-style">
-      <p style="text-align: justify;">
-        I’m a second-year Master’s student at the University of Alberta, working under the supervision 
-        of <a href="https://webdocs.cs.ualberta.ca/~amaral/" target="_blank">Prof. J. Nelson Amaral</a>. 
-        I’m passionate about making deep learning models faster and more efficient. 
-        My research explores how different memory layouts and convolution algorithms affect performance 
-        in Convolutional Neural Networks (CNNs), with the goal of finding smarter ways to optimize them.
-      </p>
-    </div>
-
-    
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <div class="section-subheading">Interests</div>
-        <ul class="ul-interests fa-ul mb-0">
-          
-          <li>
-            <i class="fa-li fa-solid fa-book-open"></i>
-            Compiler Design
-          </li>
-          
-          <li>
-            <i class="fa-li fa-solid fa-book-open"></i>
-            Cloud Computing
-          </li>
-          
-          <li>
-            <i class="fa-li fa-solid fa-book-open"></i>
-            High Performance Computing
-          </li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <div class="section-subheading">Education</div>
-        <ul class="ul-edu fa-ul mb-0">
-          
-          <li>
-            <i class="fa-li fa-solid fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">M.Sc in Computing Science, 2024  - 2026</p>
-              <p class="institution">Univeresity of Alberta</p>
+    <span class="js-widget-page d-none"></span>
+
+    <!-- About -->
+    <section id="about" class="home-section wg-about-biography">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div id="profile">
+              <img class="avatar avatar-circle" width="270" height="270" src="/authors/admin/avatar2.webp" alt="Portrait of Mariana Dehghan">
+              <div class="portrait-title">
+                <h2>Mariana Dehghan</h2>
+                <h3>M.Sc. Student</h3>
+                <h3>
+                  <a href="https://www.ualberta.ca/en/index.html" target="_blank" rel="noopener">
+                    <span>University of Alberta</span>
+                  </a>
+                </h3>
+              </div>
+              <ul class="network-icon" aria-hidden="true">
+                <li>
+                  <a href="mailto:maedehdehghanam@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope big-icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/maedehdehghanam" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github big-icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/in/maedeh-dehghan-130409200" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin big-icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/maedehdehghanam/cv.pdf/releases/latest/download/main.pdf" target="_blank" rel="noopener" aria-label="CV">
+                    <i class="ai ai-cv big-icon"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
-          </li>
+          </div>
 
-
-
-          <li>
-            <i class="fa-li fa-solid fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">B.Sc in Computer Engineering, 2020  - 2024</p>
-              <p class="institution">Shahid Beheshti Univeresity</p>
+          <div class="col-12 col-lg-8">
+            <h1>Biography</h1>
+            <div class="article-style">
+              <p style="text-align: justify;">
+                I’m a second-year Master’s student at the University of Alberta, advised by
+                <a href="https://webdocs.cs.ualberta.ca/~amaral/" target="_blank" rel="noopener">Prof. J. Nelson Amaral</a>.
+                I’m passionate about making deep learning models faster and more efficient. My research explores how
+                memory layouts and convolution algorithms affect performance in Convolutional Neural Networks (CNNs),
+                with the goal of smart, practical optimizations.
+              </p>
             </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fa-solid fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Diploma in Physics &amp;‌ Mathematics, 2016 - 2020</p>
-              <p class="institution">Farzanegan HighSchool(NODET)</p>
+
+            <div class="row">
+              <div class="col-md-5">
+                <div class="section-subheading">Interests</div>
+                <ul class="ul-interests fa-ul mb-0">
+                  <li><i class="fa-li fa-solid fa-book-open"></i>Compiler Design</li>
+                  <li><i class="fa-li fa-solid fa-book-open"></i>Cloud Computing</li>
+                  <li><i class="fa-li fa-solid fa-book-open"></i>High-Performance Computing</li>
+                </ul>
+              </div>
+
+              <div class="col-md-7">
+                <div class="section-subheading">Education</div>
+                <ul class="ul-edu fa-ul mb-0">
+                  <li>
+                    <i class="fa-li fa-solid fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course">M.Sc. in Computing Science, 2024 – 2026</p>
+                      <p class="institution">University of Alberta</p>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-li fa-solid fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course">B.Sc. in Computer Engineering, 2020 – 2024</p>
+                      <p class="institution">Shahid Beheshti University</p>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-li fa-solid fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course">Diploma in Physics &amp; Mathematics, 2016 – 2020</p>
+                      <p class="institution">Farzanegan High School (NODET)</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
             </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-
-  
-
-  </div>
-</section>
-
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="experience" class="home-section wg-experience  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Experience</h1>
-          
+          </div>
         </div>
-      
-    
-  
+      </div>
+    </section>
 
-    
+    <!-- Experience -->
+    <section id="experience" class="home-section wg-experience">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Experience</h1>
+          </div>
+        </div>
 
-
-
-
-
-
-
-
-
-  <div class="col-12 col-lg-8">
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <div class="d-flex align-content-start">
-            <div class="mr-2 mb-2"><a href="https://sbu.ac.ir/" target="_blank" rel="noopener"><img src="/media/icons/brands/u-of-a.webp" width="56" height="56" alt="University of Alberta" loading="lazy"></a></div>
-            <div>
-          
-
-              <div class="section-subheading card-title exp-title text-muted my-0">Research Assistant</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://sbu.ac.ir/" target="_blank" rel="noopener">University of Alberta</a></div>
-              <div class="text-muted exp-meta">
-                September 2021 –
-                
-                  June 2024
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Edmonton, Alberta, Canada</span>
-                
+        <div class="col-12 col-lg-8">
+          <div class="col py-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-content-start">
+                  <div class="mr-2 mb-2"><a href="https://www.ualberta.ca/" target="_blank" rel="noopener"><img src="/media/icons/brands/u-of-a.webp" width="56" height="56" alt="University of Alberta" loading="lazy"></a></div>
+                  <div>
+                    <div class="section-subheading card-title exp-title text-muted my-0">Research Assistant</div>
+                    <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.ualberta.ca/" target="_blank" rel="noopener">University of Alberta</a></div>
+                    <div class="text-muted exp-meta">
+                      September 2024 – Present
+                      <span class="middot-divider"></span>
+                      <span>Edmonton, Alberta, Canada</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-text"><p>Courses that I have worked as a TA:</p>
+                  <ul>
+                    <li>Computer Organization and Architecture I
+                      <ul><li>Fall 2025</li></ul>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          
-
-          <div class="card-text"><p>Courses that I have worked as a TA:</p>
-<ul>
-<li>Computer Architecture I
-<ul>
-<li>Fall 2025</li>
-</ul>
-</li>
-</ul></div>
         </div>
-      </div>
-    </div>
-  </div> 
-  
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border exp-fill">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <div class="d-flex align-content-start">
-            <div class="mr-2 mb-2"><a href="https://hpc.ipm.ac.ir/" target="_blank" rel="noopener"><img src="/media/icons/brands/org-gc.svg" width="56" height="56" alt="Institute for Research in Fundamental Sciences (High-Perfomance Computing Center)" loading="lazy"></a></div>
-            <div>
-          
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Platform Engineer</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://hpc.ipm.ac.ir/" target="_blank" rel="noopener">Institute for Research in Fundamental Sciences (High-Perfomance Computing Center)</a></div>
-              <div class="text-muted exp-meta">
-                October 2023 –
-                
-                  June 2024
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Tehran, Tehran, Iran</span>
-                
+        <!-- Timeline item: IPM HPC Center -->
+        <div class="row experience">
+          <div class="col-auto text-center flex-column d-none d-sm-flex">
+            <div class="row h-50"><div class="col border-right">&nbsp;</div><div class="col">&nbsp;</div></div>
+            <div class="m-2"><span class="badge badge-pill border exp-fill">&nbsp;</span></div>
+            <div class="row h-50"><div class="col border-right">&nbsp;</div><div class="col">&nbsp;</div></div>
+          </div>
+          <div class="col py-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-content-start">
+                  <div class="mr-2 mb-2"><a href="https://hpc.ipm.ac.ir/" target="_blank" rel="noopener"><img src="/media/icons/brands/org-gc.svg" width="56" height="56" alt="Institute for Research in Fundamental Sciences — High-Performance Computing Center" loading="lazy"></a></div>
+                  <div>
+                    <div class="section-subheading card-title exp-title text-muted my-0">Platform Engineer</div>
+                    <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://hpc.ipm.ac.ir/" target="_blank" rel="noopener">Institute for Research in Fundamental Sciences (High-Performance Computing Center)</a></div>
+                    <div class="text-muted exp-meta">
+                      October 2023 – June 2024
+                      <span class="middot-divider"></span>
+                      <span>Tehran, Iran</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-text"><p>Responsibilities include:</p>
+                  <ul>
+                    <li>Analyzing</li>
+                    <li>Modeling</li>
+                    <li>Deploying</li>
+                    <li>Monitoring &amp; alerting</li>
+                  </ul></div>
               </div>
             </div>
           </div>
-          
-
-          <div class="card-text"><p>Responsibilities include:</p>
-<ul>
-<li>Analysing</li>
-<li>Modelling</li>
-<li>Deploying</li>
-<li>Monitoring and Alerting</li>
-</ul></div>
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border exp-fill">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <div class="d-flex align-content-start">
-            <div class="mr-2 mb-2"><a href="https://sbu.ac.ir/" target="_blank" rel="noopener"><img src="/media/icons/brands/Sbu.svg" width="56" height="56" alt="Shahid Behehshti university" loading="lazy"></a></div>
-            <div>
-          
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Teaching Assistant</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://sbu.ac.ir/" target="_blank" rel="noopener">Shahid Behehshti university</a></div>
-              <div class="text-muted exp-meta">
-                September 2021 –
-                
-                  June 2024
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Tehran, Tehran, Iran</span>
-                
+        <!-- Timeline item: SBU TA -->
+        <div class="row experience">
+          <div class="col-auto text-center flex-column d-none d-sm-flex">
+            <div class="row h-50"><div class="col border-right">&nbsp;</div><div class="col">&nbsp;</div></div>
+            <div class="m-2"><span class="badge badge-pill border exp-fill">&nbsp;</span></div>
+            <div class="row h-50"><div class="col border-right">&nbsp;</div><div class="col">&nbsp;</div></div>
+          </div>
+          <div class="col py-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-content-start">
+                  <div class="mr-2 mb-2"><a href="https://en.sbu.ac.ir" target="_blank" rel="noopener"><img src="/media/icons/brands/Sbu.svg" width="56" height="56" alt="Shahid Beheshti University" loading="lazy"></a></div>
+                  <div>
+                    <div class="section-subheading card-title exp-title text-muted my-0">Teaching Assistant</div>
+                    <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://en.sbu.ac.ir" target="_blank" rel="noopener">Shahid Beheshti University</a></div>
+                    <div class="text-muted exp-meta">
+                      September 2021 – June 2024
+                      <span class="middot-divider"></span>
+                      <span>Tehran, Iran</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-text"><p>Courses that I have worked as a TA:</p>
+                  <ul>
+                    <li>Advanced Programming
+                      <ul><li>Fall 2023</li><li>Spring 2023</li><li>Fall 2022</li><li>Spring 2022</li></ul>
+                    </li>
+                    <li>Algorithm Design
+                      <ul><li>Fall 2023</li></ul>
+                    </li>
+                    <li>Artificial Intelligence
+                      <ul><li>Spring 2023</li></ul>
+                    </li>
+                    <li>Electric Circuits
+                      <ul><li>Spring 2023</li><li>Fall 2022</li></ul>
+                    </li>
+                    <li>Operating Systems
+                      <ul><li>Fall 2023</li><li>Spring 2023</li></ul>
+                    </li>
+                    <li>Introduction to Programming
+                      <ul><li>Fall 2023</li><li>Spring 2023</li><li>Fall 2022</li><li>Spring 2022</li></ul>
+                    </li>
+                    <li>Technical English
+                      <ul><li>Fall 2022</li></ul>
+                    </li>
+                  </ul></div>
               </div>
             </div>
           </div>
-          
-
-          <div class="card-text"><p>Courses that I have worked as a TA:</p>
-<ul>
-<li>Advanced Programming
-<ul>
-<li>Fall 2023</li>
-<li>Spring 2023</li>
-<li>Fall 2022</li>
-<li>Spring 2022</li>
-</ul>
-</li>
-<li>Algorithm Design
-<ul>
-<li>Fall 2023</li>
-</ul>
-</li>
-<li>Artificial intelligence
-<ul>
-<li>Spring 2023</li>
-</ul>
-</li>
-<li>Electric Circuts
-<ul>
-<li>Spring 2023</li>
-<li>Fall 2022</li>
-</ul>
-</li>
-<li>Operating Systems
-<ul>
-<li>Fall 2023</li>
-<li>Spring 2023</li>
-</ul>
-</li>
-<li>Introduction to Programming
-<ul>
-<li>Fall 2023</li>
-<li>Spring 2023</li>
-<li>Fall 2022</li>
-<li>Spring 2022</li>
-</ul>
-</li>
-<li>Technical English
-<ul>
-<li>Fall 2022</li>
-</ul>
-</li>
-</ul></div>
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <div class="d-flex align-content-start">
-            <div class="mr-2 mb-2"><img src="/media/icons/brands/sampad.svg" width="56" height="56" alt="Shahid Dastgheyb Highschool(National Organization for Development of Exceptional Talents)" loading="lazy"></div>
-            <div>
-          
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Calculus &amp; Advanced physics Teacher</div>
-              <div class="section-subheading card-title exp-company text-muted my-0">Shahid Dastgheyb Highschool(National Organization for Development of Exceptional Talents)</div>
-              <div class="text-muted exp-meta">
-                January 2020 –
-                
-                  June 2023
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Tehran, Tehran, Iran</span>
-                
+        <!-- Timeline item: High school teacher -->
+        <div class="row experience">
+          <div class="col-auto text-center flex-column d-none d-sm-flex">
+            <div class="row h-50"><div class="col border-right">&nbsp;</div><div class="col">&nbsp;</div></div>
+            <div class="m-2"><span class="badge badge-pill border">&nbsp;</span></div>
+            <div class="row h-50"><div class="col">&nbsp;</div><div class="col">&nbsp;</div></div>
+          </div>
+          <div class="col py-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex align-content-start">
+                  <div class="mr-2 mb-2"><img src="/media/icons/brands/sampad.svg" width="56" height="56" alt="Farzanegan/SAMPAD High School" loading="lazy"></div>
+                  <div>
+                    <div class="section-subheading card-title exp-title text-muted my-0">Calculus &amp; Advanced Physics Teacher</div>
+                    <div class="section-subheading card-title exp-company text-muted my-0">Shahid Dastgheyb High School (SAMPAD)</div>
+                    <div class="text-muted exp-meta">
+                      January 2020 – June 2023
+                      <span class="middot-divider"></span>
+                      <span>Tehran, Iran</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-text"><ul>
+                  <li>Taught physics and calculus to high school students participating in the Physics Olympiad.</li>
+                  <li>Prepared students for national and international physics competitions, emphasizing conceptual understanding and advanced problem-solving.</li>
+                </ul></div>
               </div>
             </div>
           </div>
-          
-
-          <div class="card-text"><ul>
-<li>Taught physics and calculus to high school students participating in the Physics Olympiad.</li>
-<li>Prepared students for national and international physics  competitions, focusing on conceptual understanding and
-advanced problem-solving techniques.</li>
-</ul>
-</div>
         </div>
+
       </div>
-    </div>
-  </div>
-  
-  
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="section-accomplishments" class="home-section wg-accomplishments  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Honors</h1>
-          
+    </section>
+
+    <!-- Honors -->
+    <section id="section-accomplishments" class="home-section wg-accomplishments">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Honors</h1>
+          </div>
         </div>
-      
-    
-  
 
-    
-
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-  
-    <div class="card experience course">
-      <div class="card-body">
-        <div class="d-flex align-content-start">
-          <div class="mr-2 mb-2"><a href="https://en.sbu.ac.ir" target="_blank" rel="noopener"><img src="/media/icons/brands/Sbu.svg" width="56" height="56" alt="Shahid Beheshti University" loading="lazy"></a></div>
-          <div>
-        <div class="section-subheading card-title exp-title text-muted my-0"></div><div class="card-subtitle my-0 article-metadata"><a href="https://en.sbu.ac.ir" target="_blank" rel="noopener">Shahid Beheshti University</a><span class="middot-divider"></span>
-
-              Sep 2023
-              
+        <div class="col-12 col-lg-8">
+          <div class="card experience course">
+            <div class="card-body">
+              <div class="d-flex align-content-start">
+                <div class="mr-2 mb-2"><a href="https://en.sbu.ac.ir" target="_blank" rel="noopener"><img src="/media/icons/brands/Sbu.svg" width="56" height="56" alt="Shahid Beheshti University" loading="lazy"></a></div>
+                <div>
+                  <div class="section-subheading card-title exp-title text-muted my-0"></div>
+                  <div class="card-subtitle my-0 article-metadata"><a href="https://en.sbu.ac.ir" target="_blank" rel="noopener">Shahid Beheshti University</a><span class="middot-divider"></span>
+                    Sep 2023
+                  </div>
+                </div>
+              </div>
+              <div class="card-text"><ul>
+                <li>Ranked 3rd among 92 B.Sc. students in the Computer Engineering department.</li>
+                <li>Member of Shahid Beheshti University Exceptional Talents Organization.</li>
+              </ul></div>
             </div>
           </div>
         </div>
-        
 
-        
-          <div class="card-text"><ul>
-<li>Ranked 3rd among 92 B.Sc students in the Computer Engineering department, Shahid Beheshti University</li>
-<li>Member of Shahid Beheshti University Exceptional Talents Organization.</li>
-</ul>
-</div>
-        
-
-        
       </div>
-    </div>
-  
-  
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="projects" class="home-section wg-portfolio  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  justify-content-center">
-    
-      
-        <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Projects</h1>
-          
+    </section>
+
+    <!-- Projects (unchanged other than ensuring alt/links are good) -->
+    <section id="projects" class="home-section wg-portfolio">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Projects</h1>
+          </div>
         </div>
-      
-    
-  
 
-    
+        <div class="col-12 ">
+          <span class="d-none default-project-filter">*</span>
+          <div class="project-toolbar">
+            <div class="project-filters">
+              <div class="btn-toolbar d-flex justify-content-center">
+                <div class="btn-group flex-wrap">
+                  <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+                  <a href="#" data-filter=".js-id-machine-learning" class="btn btn-primary btn-lg">Machine Learning</a>
+                  <a href="#" data-filter=".js-id-assembly" class="btn btn-primary btn-lg">Assembly</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="isotope projects-container row js-layout-row project-showcase">
+            <div class="col-12 isotope-item js-id-machine-learning">
+              <div class="col-lg-12 mb-5 view-showcase">
+                <div class="row align-items-center">
+                  <div class="col-12 col-md-6">
+                    <div class="section-subheading article-title mb-0 mt-0"><a href="https://github.com/maedehdehghanam/Persian-CrossWordsolver">Cross Word Solver</a></div>
+                    <div class="article-style">The Crossword Solver is a tool designed to assist users in solving crossword puzzles by providing category suggestions for inscriptions.</div>
+                    <div class="btn-links"></div>
+                  </div>
+                  <div class="col-12 col-md-6 order-first ">
+                    <a href="https://github.com/maedehdehghanam/Persian-CrossWordsolver">
+                      <img src="/project/crossword-solver/featured_hua198230cf4920300139c9b1f9b439603_88319_540x0_resize_q75_h2_lanczos.webp" height="529" width="540" alt="Cross Word Solver" loading="lazy" style="width: 540px; height: auto; object-fit: cover;">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-12 isotope-item js-id-assembly">
+              <div class="col-lg-12 mb-5 view-showcase">
+                <div class="row align-items-center">
+                  <div class="col-12 col-md-6">
+                    <div class="section-subheading article-title mb-0 mt-0"><a href="https://github.com/maedehdehghanam/Doodle_jump">Doodle Jump</a></div>
+                    <div class="article-style">This project is an implementation of the popular mobile game “Doodle Jump” using x86 Assembly.</div>
+                    <div class="btn-links"></div>
+                  </div>
+                  <div class="col-12 col-md-6 order-first ">
+                    <a href="https://github.com/maedehdehghanam/Doodle_jump">
+                      <img src="/project/external-project/featured.gif" height="480" width="480" alt="Doodle Jump" loading="lazy" style="width: 540px; height: auto; object-fit: cover;">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-12 isotope-item js-id-machine-learning">
+              <div class="col-lg-12 mb-5 view-showcase">
+                <div class="row align-items-center">
+                  <div class="col-12 col-md-6">
+                    <div class="section-subheading article-title mb-0 mt-0"><a href="https://github.com/maedehdehghanam/Laptop-Price-Prediction">Laptop Price Prediction</a></div>
+                    <div class="article-style">This project is a machine learning pipeline that predicts laptop prices based on data collected from torob.com.</div>
+                    <div class="btn-links"></div>
+                  </div>
+                  <div class="col-12 col-md-6 order-first ">
+                    <a href="https://github.com/maedehdehghanam/Laptop-Price-Prediction">
+                      <img src="/project/example/featured.gif" height="600" width="800" alt="Laptop Price Prediction" loading="lazy" style="width: 540px; height: auto; object-fit: cover;">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-12 isotope-item js-id-assembly">
+              <div class="col-lg-12 mb-5 view-showcase">
+                <div class="row align-items-center">
+                  <div class="col-12 col-md-6">
+                    <div class="section-subheading article-title mb-0 mt-0"><a href="https://github.com/maedehdehghanam/risc-v-Multi-Cycle">Multi-Cycle RISC-V Processor</a></div>
+                    <div class="article-style">Design and implementation of a multi-cycle RISC-V processor.</div>
+                    <div class="btn-links"></div>
+                  </div>
+                  <div class="col-12 col-md-6 order-first ">
+                    <a href="https://github.com/maedehdehghanam/risc-v-Multi-Cycle">
+                      <img src="/project/risc-v/featured_hu704e7d26fcbbfb5fd94017f9ff5c9534_36426_540x0_resize_q75_h2_lanczos.webp" height="303" width="540" alt="Multi-Cycle RISC-V Processor" loading="lazy" style="width: 540px; height: auto; object-fit: cover;">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-
-
-
-
-
-
-
-<div class="col-12 ">
-
-  
-
-  
-
-    
-
-    
-    
-    
-    
-      
-      
-        
-      
-    
-
-    <span class="d-none default-project-filter">*</span>
-
-    
-    
-    <div class="project-toolbar">
-      <div class="project-filters">
-        <div class="btn-toolbar d-flex justify-content-center">
-          <div class="btn-group flex-wrap">
-            
-              
-              
-              
-                
-                  
-                
-              
-              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
-            
-              
-              
-              
-                
-                  
-                
-              
-              <a href="#" data-filter=".js-id-machine-learning" class="btn btn-primary btn-lg">Machine Learning</a>
-            
-              
-              
-              
-                
-                  
-                
-              
-              <a href="#" data-filter=".js-id-assembly" class="btn btn-primary btn-lg">Assembly</a>
-            
           </div>
         </div>
       </div>
-    </div>
-    
-  
-
-  <div class="isotope projects-container row js-layout-row project-showcase">
-
-    
-    
-
-    
-    
-    
-      
-    
-    
-    
-    
-      
-    
-
-    
-    
-    
-    
-    
-    
-
-    
-      
-        
-          <div class="col-12 isotope-item js-id-machine-learning">
-        
-        
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-<div class="col-lg-12 mb-5 view-showcase">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <div class="section-subheading article-title mb-0 mt-0"><a href="https://github.com/maedehdehghanam/Persian-CrossWordsolver" >Cross Word Solver</a></div>
-
-      
-      <div class="article-style">
-        The Crossword Solver is a tool designed to assist users in solving crossword puzzles by providing category suggestions for inscriptions.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first ">
-      
-
-      
-        
-        
-        
-        <a href="https://github.com/maedehdehghanam/Persian-CrossWordsolver" >
-          <img src="/project/crossword-solver/featured_hua198230cf4920300139c9b1f9b439603_88319_540x0_resize_q75_h2_lanczos.webp" height="529" width="540"
-              alt="Cross Word Solver" loading="lazy" style="width: 540px; height: auto; object-fit: cover;">
-        </a>
-      
-    </div>
-  </div>
-</div>
-
-      </div>
-    
-      
-        
-          <div class="col-12 isotope-item js-id-assembly">
-        
-        
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-<div class="col-lg-12 mb-5 view-showcase">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <div class="section-subheading article-title mb-0 mt-0"><a href="https://github.com/maedehdehghanam/Doodle_jump" >Doodle Jump</a></div>
-
-      
-      <div class="article-style">
-        This project is an implementation of the popular mobile game ”Doodle Jump” using Assembly x86 programming language.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first ">
-      
-
-      
-        
-        
-        
-        <a href="https://github.com/maedehdehghanam/Doodle_jump" >
-          <img src="/project/external-project/featured.gif" height="480" width="480"
-              alt="Doodle Jump" loading="lazy" style="width: 540px; height: auto; object-fit: cover;">
-        </a>
-      
-    </div>
-  </div>
-</div>
-
-      </div>
-    
-      
-        
-          <div class="col-12 isotope-item js-id-machine-learning">
-        
-        
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-<div class="col-lg-12 mb-5 view-showcase">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <div class="section-subheading article-title mb-0 mt-0"><a href="https://github.com/maedehdehghanam/Laptop-Price-Prediction" >Laptop Price Prediction</a></div>
-
-      
-      <div class="article-style">
-        This project is a machine learning project that predicts laptop prices based on data collected from torob.com.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first ">
-      
-
-      
-        
-        
-        
-        <a href="https://github.com/maedehdehghanam/Laptop-Price-Prediction" >
-          <img src="/project/example/featured.gif" height="600" width="800"
-              alt="Laptop Price Prediction" loading="lazy" style="width: 540px; height: auto; object-fit: cover;">
-        </a>
-      
-    </div>
-  </div>
-</div>
-
-      </div>
-    
-      
-        
-          <div class="col-12 isotope-item js-id-assembly">
-        
-        
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-<div class="col-lg-12 mb-5 view-showcase">
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <div class="section-subheading article-title mb-0 mt-0"><a href="https://github.com/maedehdehghanam/risc-v-Multi-Cycle" >Multi-Cycle RISC-V Processor</a></div>
-
-      
-      <div class="article-style">
-        The project involves the design and implementation of a multi-cycle RISC-V processor.
-      </div>
-      
-
-      <div class="btn-links">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-    <div class="col-12 col-md-6 order-first ">
-      
-
-      
-        
-        
-        
-        <a href="https://github.com/maedehdehghanam/risc-v-Multi-Cycle" >
-          <img src="/project/risc-v/featured_hu704e7d26fcbbfb5fd94017f9ff5c9534_36426_540x0_resize_q75_h2_lanczos.webp" height="303" width="540"
-              alt="Multi-Cycle RISC-V Processor" loading="lazy" style="width: 540px; height: auto; object-fit: cover;">
-        </a>
-      
-    </div>
-  </div>
-</div>
-
-      </div>
-    
-
-  </div>
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-  
-
-
+    </section>
 
   </div>
 
   <div class="page-footer">
-    
-    
     <div class="container">
       <footer class="site-footer">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-
-
-<p class="powered-by">
-  
-  <a href="/privacy/">Privacy Policy</a>
-  
-  
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-    
-  
-  
-    
-  
-
-  
-
-  
-  <p class="powered-by copyright-license-text">
-    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
-  </p>
-  
-
-  <p class="powered-by footer-license-icons">
-    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
-      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
-      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
-      
-        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
-      
-      
-        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
-      
-    </a>
-  </p>
-
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
-
+        <p class="powered-by"><a href="/privacy/">Privacy Policy</a></p>
+        <p class="powered-by copyright-license-text">
+          © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+        </p>
+        <p class="powered-by footer-license-icons">
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+            <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+            <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+            <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+            <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+          </a>
+        </p>
+        <p class="powered-by">
+          Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+        </p>
+      </footer>
     </div>
-    
   </div>
 
-  
+  <script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" crossorigin="anonymous"></script>
 
-
-<script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
-
-
-
-
-  
-    <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
-  
-
-  
-  
-
-  
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-  
   <script id="search-hit-fuse-template" type="text/x-template">
     <div class="search-hit" id="summary-{{key}}">
       <div class="search-hit-content">
@@ -2187,88 +566,11 @@ advanced problem-solving techniques.</li>
       </div>
     </div>
   </script>
-  
-    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
-  
+  <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script id="page-data" type="application/json">{"use_headroom":false}</script>
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-<script src="/en/js/wowchemy.min.62586ca65ca61821fe707eb9fa6268b7.js"></script>
-
-
-
+  <script id="page-data" type="application/json">{"use_headroom":false}</script>
+  <script src="/en/js/wowchemy.min.62586ca65ca61821fe707eb9fa6268b7.js"></script>
   <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
